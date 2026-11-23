@@ -152,6 +152,7 @@ td { font-variant-numeric: tabular-nums; }
 .cta .btn { border-color: var(--bg); color: var(--bg); }
 .cta .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .cta ul { margin: 0 0 20px; padding-left: 20px; opacity: 0.75; }
+.cta .soon { font-family: var(--mono); font-size: 13px; opacity: 1; color: var(--bg); border: 1px dashed currentColor; border-radius: 4px; padding: 12px 16px; display: inline-block; margin: 6px 0 0; }
 
 footer { padding: 40px 0 56px; font-family: var(--mono); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
 
