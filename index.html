@@ -9,6 +9,7 @@
 <meta property="og:description" content="A vertical-takeoff cargo aircraft for routes where the road is slow. Open build log. Looking for pilot partners.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://55.land/">
+<meta property="og:image" content="https://55.land/img/family.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -19,6 +20,7 @@
   <a class="logo" href="./">55<span>.</span>land</a>
   <nav>
     <a class="hide" href="#aircraft">Aircraft</a>
+    <a class="hide" href="#stages">Stages</a>
     <a class="hide" href="#roadmap">Roadmap</a>
     <a href="log.html">Build log</a>
     <a href="#contact">Contact</a>
@@ -36,6 +38,37 @@
     </div>
   </div>
   <figure>
+    <img class="render" src="img/stage-1.jpg" width="1920" height="1080" alt="Concept rendering of the Stage 1 aircraft: a white cylindrical fuselage under a straight wing, two carbon booms with four lift rotors, a pusher propeller and an orange inverted-V tail, standing on skids next to a parcel.">
+    <figcaption>Concept rendering, Stage 1. Not a photograph.</figcaption>
+  </figure>
+</div>
+
+<dl class="status">
+  <div><dt>Stage</dt><dd>Design and simulation</dd></div>
+  <div><dt>First aircraft</dt><dd>Stage 1, 5 kg of cargo</dd></div>
+  <div><dt>Base</dt><dd>New York</dd></div>
+</dl>
+
+<section class="two" id="why">
+  <div class="big55">55<small>POUNDS · 24.9 KG</small></div>
+  <div>
+    <h2>Why 55.</h2>
+    <p>Fifty-five pounds is the line the FAA draws between a small unmanned aircraft and everything above it. Under that line, an aircraft can be built, tested and put to work quickly. Over it, every step takes longer and costs more.</p>
+    <p>Our first working aircraft sits just under the line. It carries less than the bigger ones we want to build later, but it flies sooner, and it teaches us what the bigger ones need.</p>
+  </div>
+</section>
+
+<section id="aircraft">
+  <p class="eyebrow">The aircraft</p>
+  <h2>One airframe, three jobs.</h2>
+  <p class="lede">Vertical lift and forward flight each get their own propulsion, so neither one compromises the other. Nothing folds, tilts or retracts in the air.</p>
+  <div class="steps">
+    <div class="card"><div class="num">01 / LIFT</div><h3>Takes off from a parking space</h3><p>Electric lift rotors raise it straight up. No runway, no launcher, no ground crew.</p></div>
+    <div class="card"><div class="num">02 / CRUISE</div><h3>Flies on a wing</h3><p>A pusher propeller takes over and the lift rotors stop. A wing covers distance on a fraction of the energy of hovering.</p></div>
+    <div class="card"><div class="num">03 / DELIVER</div><h3>Drops off and comes home</h3><p>It hovers at the destination, opens the belly bay, releases the parcel, and flies the return leg on its own.</p></div>
+  </div>
+
+  <figure class="plan">
     <svg class="drawing" viewBox="20 36 640 290" role="img" aria-label="Top view of the aircraft: a round fuselage, a straight wing, two tail booms carrying eight lift rotors, a pusher propeller and an inverted-V tail.">
       <rect class="s" x="234" y="60" width="36" height="180" rx="18"/>
       <rect class="s" x="168" y="70" width="6" height="225" rx="3"/>
@@ -59,51 +92,66 @@
       <text x="60" y="210">cargo bay</text>
       <line class="l" x1="124" y1="200" x2="238" y2="180"/>
     </svg>
-    <figcaption>Concept drawing, top view. Not to final scale.</figcaption>
+    <figcaption>Layout, top view. Not to final scale.</figcaption>
   </figure>
-</div>
-
-<dl class="status">
-  <div><dt>Stage</dt><dd>Design and simulation</dd></div>
-  <div><dt>First airframe</dt><dd>2.2 m sub-scale prototype</dd></div>
-  <div><dt>Base</dt><dd>New York</dd></div>
-</dl>
-
-<section class="two" id="why">
-  <div class="big55">55<small>POUNDS · 24.9 KG</small></div>
-  <div>
-    <h2>Why 55.</h2>
-    <p>Fifty-five pounds is the line the FAA draws between a small unmanned aircraft and everything above it. Under that line, an aircraft can be built, tested and put to work quickly. Over it, every step takes longer and costs more.</p>
-    <p>Our first working aircraft sits just under the line. It carries less than the big one we want to build later, but it flies sooner, and it teaches us everything the big one needs.</p>
-  </div>
 </section>
 
-<section id="aircraft">
-  <p class="eyebrow">The aircraft</p>
-  <h2>One airframe, three jobs.</h2>
-  <p class="lede">Vertical lift and forward flight each get their own propulsion, so neither one compromises the other. Nothing folds, tilts or retracts in the air.</p>
-  <div class="steps">
-    <div class="card"><div class="num">01 / LIFT</div><h3>Takes off from a parking space</h3><p>Electric lift rotors raise it straight up. No runway, no launcher, no ground crew.</p></div>
-    <div class="card"><div class="num">02 / CRUISE</div><h3>Flies on a wing</h3><p>A pusher propeller takes over and the lift rotors stop. A wing covers distance on a fraction of the energy of hovering.</p></div>
-    <div class="card"><div class="num">03 / DELIVER</div><h3>Drops off and comes home</h3><p>It hovers at the destination, opens the belly bay, releases the parcel, and flies the return leg on its own.</p></div>
+<section id="stages">
+  <p class="eyebrow">Three stages</p>
+  <h2>Small first. Then bigger. Then people.</h2>
+  <p class="lede">Each stage uses the same layout and pays for the lessons of the next one. We build them in order.</p>
+
+  <div class="stage">
+    <img class="render" src="img/stage-1.jpg" width="1920" height="1080" loading="lazy" alt="Concept rendering of the Stage 1 aircraft beside a parcel.">
+    <div>
+      <div class="num">STAGE 1 <span class="tag now">Being designed</span></div>
+      <h3>The 55</h3>
+      <p>The first aircraft that does real work. It stays under 55 pounds, so it can be built, tested and flown under the small-aircraft rules.</p>
+      <dl class="spec">
+        <div><dt>Carries</dt><dd>5 kg of cargo</dd></div>
+        <div><dt>Takeoff weight</dt><dd>under 24.9 kg (55 lb)</dd></div>
+        <div><dt>Wingspan</dt><dd>about 3.2 m</dd></div>
+        <div><dt>Power</dt><dd>Electric</dd></div>
+      </dl>
+    </div>
   </div>
 
-  <div class="tablewrap">
-    <table>
-      <thead>
-        <tr><th></th><th>Prototype</th><th>55</th><th>Heavy</th></tr>
-      </thead>
-      <tbody>
-        <tr><th>Status</th><td>Being designed</td><td>Next</td><td>Design study</td></tr>
-        <tr><th>Takeoff weight</th><td>about 7.5 kg</td><td>under 24.9 kg (55 lb)</td><td>about 75 kg</td></tr>
-        <tr><th>Payload</th><td>1.5 kg</td><td>about 5 kg</td><td>20 kg</td></tr>
-        <tr><th>Wingspan</th><td>2.2 m</td><td>about 3.2 m</td><td>about 4.5 m</td></tr>
-        <tr><th>Distance per flight</th><td>about 50 km</td><td>about 130 km</td><td>600 km</td></tr>
-        <tr><th>Power</th><td>Electric</td><td>Electric</td><td>Hybrid</td></tr>
-      </tbody>
-    </table>
+  <div class="stage">
+    <img class="render" src="img/stage-2.jpg" width="1920" height="1080" loading="lazy" alt="Concept rendering of the Stage 2 aircraft: a larger version with eight lift rotors in four pairs, beside a stack of parcels.">
+    <div>
+      <div class="num">STAGE 2 <span class="tag">Design study</span></div>
+      <h3>Heavy</h3>
+      <p>The same layout scaled up for long routes. Eight lift rotors in four pairs, and an engine that runs the cruise propeller so distance is not limited by the battery.</p>
+      <dl class="spec">
+        <div><dt>Carries</dt><dd>20 to 30 kg of cargo</dd></div>
+        <div><dt>Distance per flight</dt><dd>more than 400 km</dd></div>
+        <div><dt>Wingspan</dt><dd>about 5 m</dd></div>
+        <div><dt>Power</dt><dd>Hybrid</dd></div>
+      </dl>
+    </div>
   </div>
-  <p class="note">These are design targets from our sizing calculations. None of these aircraft has flown yet. We will replace each number with a measured one as soon as we have it, and say so in the build log.</p>
+
+  <div class="stage">
+    <img class="render" src="img/stage-3.jpg" width="1920" height="1080" loading="lazy" alt="Concept rendering of the Stage 3 aircraft: a two-seat cabin with a dark canopy under a long wing, standing on three road wheels, two in front and one behind.">
+    <div>
+      <div class="num">STAGE 3 <span class="tag">Long-term goal</span></div>
+      <h3>Two seats, road and air</h3>
+      <p>Where we want to end up: an aircraft for two people and their luggage that also drives on the road, on three wheels, two in front and one behind.</p>
+      <dl class="spec">
+        <div><dt>Carries</dt><dd>two people and luggage</dd></div>
+        <div><dt>Distance per flight</dt><dd>400 km</dd></div>
+        <div><dt>On the road</dt><dd>three wheels</dd></div>
+        <div><dt>Wingspan</dt><dd>about 10 m</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <figure class="family">
+    <img class="render" src="img/family.jpg" width="1920" height="1080" loading="lazy" alt="Concept rendering of the three aircraft side by side, from the smallest to the largest.">
+    <figcaption>The three stages at the same scale. Concept renderings.</figcaption>
+  </figure>
+
+  <p class="note">These are design targets and concept renderings. None of these aircraft has been built or flown yet. Carrying people means certifying the aircraft and its pilot with the FAA, which takes years, and how the Stage 3 wing stows for the road is still an open design question. We will replace each number with a measured one as soon as we have it, and say so in the build log.</p>
 </section>
 
 <section id="who">
@@ -120,10 +168,10 @@
   <p class="eyebrow">Roadmap</p>
   <h2>Start small. Stay honest.</h2>
   <ul class="road">
-    <li><div class="k">Step 1</div><div><h3>Learn and simulate <span class="tag now">Now</span></h3><p>Remote pilot certification and a full delivery mission flown end to end in simulation, including wind and failures.</p></div></li>
-    <li><div class="k">Step 2</div><div><h3>Sub-scale prototype <span class="tag">Next</span></h3><p>A 2.2 m airframe to prove the transition from hover to wing-borne flight and the cargo bay mechanism.</p></div></li>
-    <li><div class="k">Step 3</div><div><h3>The 55 <span class="tag">Later</span></h3><p>The first aircraft that does real work: under 55 lb, about 5 kg of cargo, with a ground pad that charges from a standard EV charger.</p></div></li>
-    <li><div class="k">Step 4</div><div><h3>Heavy <span class="tag">Later</span></h3><p>The same layout scaled up for 20 kg and long routes. Routine flights beyond the pilot's line of sight need FAA approval, which we will pursue together with our first partners.</p></div></li>
+    <li><div class="k">Now</div><div><h3>Learn and simulate <span class="tag now">Now</span></h3><p>Remote pilot certification and a full delivery mission flown end to end in simulation, including wind and failures. Then practice flights with a small test airframe.</p></div></li>
+    <li><div class="k">Stage 1</div><div><h3>The 55 <span class="tag">Next</span></h3><p>Under 55 lb, 5 kg of cargo, with a ground pad that charges from a standard EV charger. Built around a real route with our first partners.</p></div></li>
+    <li><div class="k">Stage 2</div><div><h3>Heavy <span class="tag">Later</span></h3><p>20 to 30 kg over more than 400 km. Routine flights beyond the pilot's line of sight need FAA approval, which we will pursue together with our partners.</p></div></li>
+    <li><div class="k">Stage 3</div><div><h3>Two seats, road and air <span class="tag">Goal</span></h3><p>Two people, their luggage, 400 km, and three wheels for the road. Everything learned in the first two stages goes into it.</p></div></li>
   </ul>
 </section>
 
